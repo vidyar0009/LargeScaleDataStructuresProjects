@@ -42,3 +42,23 @@ Problem B
 Search Time: 4,892 seconds  
 Fragments Found: 542,457,874  
 First 15 Matches: `AAGACCACACTTCATT`, `ATTTATAAGCCACCCA`, ..., `NNNNNNNNNNNNNNNA`  
+Genome Search with Mismatches - This project involves searching genome fragments in a dataset with up to 2 mismatches. Performance is measured for varying fragment sizes and compared across multiple methods.
+Part 1A:  
+bash
+  ./main "path_to_genome" "path_to_query" "1A" 1K/10K/100K/1M
+Part 1B:  
+bash
+  ./main "path_to_genome" "path_to_query" "1B" 1K/10K/100K/1M
+Part 2A/B:  
+Similar to Part 1, replace `"1A/B"` with `"2A/B"` and size with 10K/100K/1M.
+Results
+Part 1A:  
+Hits (1M): 2,143,568, Time: 552M sec (~5143 years) 
+Part 1B:  
+Hits (1M): 2,564,473, Time: 146M sec 
+Part 2A:  
+Hits (1M): 6,633,566, Time: 617 sec (~1.7 hours) 
+Part 2B:  
+Hits (1M): 93,473, Time: 327 sec (~5.5 min)  
+Comparison
+Part 2 (A/B) is significantly faster than Part 1 (A/B).
