@@ -62,3 +62,20 @@ Part 2B:
 Hits (1M): 93,473, Time: 327 sec (~5.5 min)  
 Comparison
 Part 2 (A/B) is significantly faster than Part 1 (A/B).
+Genome Trie Search with Mismatches - This project analyzes prefix tries for 36-mer fragments in a genome dataset, exploring trie sizes and search results with up to 1 mismatch and varying error rates.
+Commands
+Part A:  
+bash
+  ./main "/common/contrib/classroom/inf503/genomes/human.txt" 5k A
+Part B:  
+bash
+  ./main "/common/contrib/classroom/inf503/genomes/human.txt" 5k B
+Results
+Part A
+Trie Sizes: 5k: 153K, 50k: 1.3M, 100k: 2.9M, 1M: 26.5M  
+Matches (1 mismatch): 5k: 5,026, 50k: 34,527, 100k: 48,567, 1M: 56,832  
+Part B
+Trie Sizes: 5k: 184K, 50k: 1.4M, 100k: 3.1M, 1M: 38.4M  
+Matches (with 5% error): 5k: 2,245, 50k: 24,568, 100k: 32,678, 1M: 256,734  
+Conclusion
+Adding a 5% error rate in Part B reduced matches compared to Part A due to less accurate queries.
