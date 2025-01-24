@@ -23,3 +23,22 @@ Part B: 10K: 100 sec, 1M: 9,548 sec
 Output
 First 10 matches:
 CTAACCCTAACCCTAACCCTAACCCTAACCCT, etc.
+Hash Table and Genome Fragment Search - This project analyzes hash table performance and searches genome fragments using optimized algorithms. The impact of hash table sizes on collisions and search performance is assessed.
+Problem A: Hash Table Performance  
+bash
+./main /common/contrib/classroom/inf503/genomes/human.txt \
+/common/contrib/classroom/inf503/human_reads_2_trimmed.fa A <size>
+Problem B: Search Fragments  
+bash
+./main /common/contrib/classroom/inf503/genomes/human.txt \
+/common/contrib/classroom/inf503/human_reads_2_trimmed.fa B
+Results
+Problem A  
+Collisions:  
+1M: 27,512,408 | 10M: 25,866,925  
+30M: 22,964,562 | 60M: 19,935,984  
+Population Time: ~38 seconds (all sizes)  
+Problem B  
+Search Time: 4,892 seconds  
+Fragments Found: 542,457,874  
+First 15 Matches: `AAGACCACACTTCATT`, `ATTTATAAGCCACCCA`, ..., `NNNNNNNNNNNNNNNA`  
