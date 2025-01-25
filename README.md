@@ -83,3 +83,22 @@ Trie Sizes: 5k: 184K, 50k: 1.4M, 100k: 3.1M, 1M: 38.4M
 Matches (with 5% error): 5k: 2,245, 50k: 24,568, 100k: 32,678, 1M: 256,734  
 Conclusion
 Adding a 5% error rate in Part B reduced matches compared to Part A due to less accurate queries.
+
+Suffix Tree Search - This project analyzes suffix trees for searching 36-mer fragments in a genome dataset.
+Commands
+Run Part A with:
+bash
+./classes "/common/contrib/classroom/inf503/genomes/human.txt" 5000
+Results
+Tree Size:
+5K: 559,463 nodes
+50K: 1,833,652 nodes
+100K: 74,502,691 nodes
+Matches for Random 36-mers:
+5K: 4,893
+50K: 49,584
+100K: 99,689
+Time Complexity: O(N * n)  
+Where N is the query size and n is the fragment size (36).
+Conclusion
+Larger datasets lead to more matches due to the higher likelihood of overlapping sequences.
