@@ -24,6 +24,7 @@ Part B: 10K: 100 sec, 1M: 9,548 sec
 Output
 First 10 matches:
 CTAACCCTAACCCTAACCCTAACCCTAACCCT, etc.
+
 Hash Table and Genome Fragment Search - This project analyzes hash table performance and searches genome fragments using optimized algorithms. The impact of hash table sizes on collisions and search performance is assessed.
 Problem A: Hash Table Performance  
 bash
@@ -43,6 +44,7 @@ Problem B
 Search Time: 4,892 seconds  
 Fragments Found: 542,457,874  
 First 15 Matches: AAGACCACACTTCATT, ATTTATAAGCCACCCA, ..., NNNNNNNNNNNNNNNA
+
 Genome Search with Mismatches - This project involves searching genome fragments in a dataset with up to 2 mismatches. Performance is measured for varying fragment sizes and compared across multiple methods.
 Part 1A:  
 bash
@@ -63,6 +65,7 @@ Part 2B:
 Hits (1M): 93,473, Time: 327 sec (~5.5 min)  
 Comparison
 Part 2 (A/B) is significantly faster than Part 1 (A/B).
+
 Genome Trie Search with Mismatches - This project analyzes prefix tries for 36-mer fragments in a genome dataset, exploring trie sizes and search results with up to 1 mismatch and varying error rates.
 Commands
 Part A:  
