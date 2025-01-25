@@ -1,8 +1,8 @@
 # LargeScaleDataStructuresProjects
 Genome Scaffold Analysis - This project analyzes genome scaffolds for length, GC content, and performance.  
 Total Scaffolds: 607  
-Largest: `568815346-9606` (147,687,514)  
-Smallest: `568802230-9606` (340)  
+Largest: 568815346-9606 (147,687,514)  
+Smallest: 568802230-9606 (340)  
 Average Length: 5,036,551  
 GC Content: 40.39%  
 Time Complexity: O(N)  
@@ -41,7 +41,7 @@ Population Time: ~38 seconds (all sizes)
 Problem B  
 Search Time: 4,892 seconds  
 Fragments Found: 542,457,874  
-First 15 Matches: `AAGACCACACTTCATT`, `ATTTATAAGCCACCCA`, ..., `NNNNNNNNNNNNNNNA`  
+First 15 Matches: AAGACCACACTTCATT, ATTTATAAGCCACCCA, ..., NNNNNNNNNNNNNNNA
 Genome Search with Mismatches - This project involves searching genome fragments in a dataset with up to 2 mismatches. Performance is measured for varying fragment sizes and compared across multiple methods.
 Part 1A:  
 bash
