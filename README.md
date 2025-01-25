@@ -10,6 +10,7 @@ Execution Time: 107.72s
 Run the script with:  
 bash
 sbatch job.sh
+
 Genome Fragment Search - This project searches 32-character fragments of a subject dataset in a query dataset and measures performance.
 Part A:
 bash
